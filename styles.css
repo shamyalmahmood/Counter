@@ -1,0 +1,39 @@
+/*
+IDs = counter, allbuttons
+Class = buttons
+Elements = h1
+*/
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons {
+    padding: 5px 10px;
+    font-size: 2em;
+    color: black;
+    background-color: rgb(142, 84, 196);
+    border-radius: 5px;
+    border: solid 3px black;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons:hover {
+    background-color: blueviolet;
+}
+
+#counter {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#allbuttons {
+    text-align: center;
+}
